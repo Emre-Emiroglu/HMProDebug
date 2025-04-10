@@ -1,0 +1,20 @@
+{
+  "name": "com.codecatgames.hmprodebug",
+  "version": "1.0.0",
+  "displayName": "HMProDebug",
+  "description": "HMProDebug is a ...",
+  "author": {
+    "name": "Emre Emiroglu",
+    "email": "emirogluemre08@gmail.com",
+    "url": "https://github.com/Emre-Emiroglu"
+  },
+  "keywords": [
+    "debug",
+    "log",
+    "unity"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Emre-Emiroglu/HMProDebug.git"
+  }
+}
