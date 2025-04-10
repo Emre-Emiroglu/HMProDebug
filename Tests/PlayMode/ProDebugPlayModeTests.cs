@@ -13,7 +13,7 @@ namespace CodeCatGames.HMProDebug.Tests.PlayMode
         {
             string inputText = "Hello";
             
-            Colorize color = Colorize.Blue;
+            Colorize color = ProDebugUtilities.Blue;
 
             string result = ProDebugUtilities.CachedColor(inputText, color);
 
@@ -29,7 +29,7 @@ namespace CodeCatGames.HMProDebug.Tests.PlayMode
         {
             string inputText = "Hello";
             
-            Colorize color = Colorize.Yellow;
+            Colorize color = ProDebugUtilities.Yellow;
 
             string result = ProDebugUtilities.CachedColor(inputText, color);
 
@@ -45,7 +45,7 @@ namespace CodeCatGames.HMProDebug.Tests.PlayMode
         {
             string inputText = "Hello";
             
-            TextFormat format = TextFormat.Bold;
+            TextFormat format = ProDebugUtilities.Bold;
 
             string result = ProDebugUtilities.CachedFormat(inputText, format);
 
@@ -61,7 +61,7 @@ namespace CodeCatGames.HMProDebug.Tests.PlayMode
         {
             string inputText = "Hello";
             
-            TextFormat format = TextFormat.Italic;
+            TextFormat format = ProDebugUtilities.Italic;
 
             string result = ProDebugUtilities.CachedFormat(inputText, format);
 
@@ -79,8 +79,8 @@ namespace CodeCatGames.HMProDebug.Tests.PlayMode
 
             string result = inputText;
             
-            result = ProDebugUtilities.CachedFormat(result, TextFormat.Bold);
-            result = ProDebugUtilities.CachedFormat(result, TextFormat.Italic);
+            result = ProDebugUtilities.CachedFormat(result, ProDebugUtilities.Bold);
+            result = ProDebugUtilities.CachedFormat(result, ProDebugUtilities.Italic);
 
             string expected = "<i><b>Hello</b></i>";
             

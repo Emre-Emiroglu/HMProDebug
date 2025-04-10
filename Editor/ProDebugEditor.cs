@@ -35,24 +35,24 @@ namespace CodeCatGames.HMProDebug.Editor
         private CachedHexType _cachedHexType = CachedHexType.Orange;
         private readonly List<Colorize> _cachedColors = new()
         {
-            Colorize.White,
-            Colorize.Red,
-            Colorize.Yellow,
-            Colorize.Green,
-            Colorize.Blue,
-            Colorize.Cyan,
-            Colorize.Magenta,
-            Colorize.Gray
+            ProDebugUtilities.White,
+            ProDebugUtilities.Red,
+            ProDebugUtilities.Yellow,
+            ProDebugUtilities.Green,
+            ProDebugUtilities.Blue,
+            ProDebugUtilities.Cyan,
+            ProDebugUtilities.Magenta,
+            ProDebugUtilities.Gray
         };
         private readonly List<Colorize> _cachedHexes = new()
         {
-            Colorize.Orange,
-            Colorize.Olive,
-            Colorize.Purple,
-            Colorize.DarkRed,
-            Colorize.DarkGreen,
-            Colorize.DarkOrange,
-            Colorize.Gold,
+            ProDebugUtilities.Orange,
+            ProDebugUtilities.Olive,
+            ProDebugUtilities.Purple,
+            ProDebugUtilities.DarkRed,
+            ProDebugUtilities.DarkGreen,
+            ProDebugUtilities.DarkOrange,
+            ProDebugUtilities.Gold,
         };
         private Color _customColor = Color.white;
         private string _customHex = "#FFFFFF";
@@ -144,9 +144,9 @@ namespace CodeCatGames.HMProDebug.Editor
                         (CachedFormatType)EditorGUILayout.EnumPopup(CachedFormatTypeEnumLabel, _cachedFormatType);
 
                     if (_cachedFormatType.HasFlag(CachedFormatType.Italic))
-                        _logText = ProDebugUtilities.CachedFormat(_logText, TextFormat.Italic);
+                        _logText = ProDebugUtilities.CachedFormat(_logText, ProDebugUtilities.Italic);
                     if (_cachedFormatType.HasFlag(CachedFormatType.Bold))
-                        _logText = ProDebugUtilities.CachedFormat(_logText, TextFormat.Bold);
+                        _logText = ProDebugUtilities.CachedFormat(_logText, ProDebugUtilities.Bold);
                     break;
                 case FormatSelectionType.CustomFormat:
                     _customFormat = EditorGUILayout.TextField(CustomFormatLabel, _customFormat);
