@@ -49,7 +49,7 @@ This project is developed using Unity version 6000.0.42f1.
     ```
 
 * ProDebug Editor: HMProDebug also includes a custom Editor window to allow easy selection of colors and formats without writing code.
-  * Open the Editor window via the Unity menu: `HMProDebug > ProDebugEditor`.
+  * Open the Editor window via the Unity menu: `Tools > HMProDebug > ProDebugEditor`.
   * Enter the text you want to log.
   * Select the color and format using dropdowns and input fields.
   * Click the "Show Log" button to see the formatted message in the console.
