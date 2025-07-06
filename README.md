@@ -1,3 +1,5 @@
+<img src="icon.jpg" width="512" height="512" alt="HMProDebug Logo">
+
 # HMProDebug
 HMProDebug is a utility package designed to help developers easily apply text formatting and coloring in Unity's debug logs. This package provides a simple and flexible way to enhance the visual readability of debug messages by allowing text to be colored and formatted using both predefined and custom options.
 

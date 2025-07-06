@@ -1,10 +1,17 @@
-﻿## [1.0.1] - 2025-05-25
+﻿## [1.0.0] - 2025-07-06
 
 ### Added
-- N/A
+- Text coloring and formatting functionality for Unity debug logs
+- Predefined color palette (White, Red, Yellow, Green, Blue, Cyan, Magenta, Gray)
+- Custom hex color code support (Orange, Olive, Purple, DarkRed, DarkGreen, DarkOrange, Gold)
+- Text formatting options (Bold, Italic)
+- ProDebugEditor window for easy usage interface
+- Custom color and formatting options
+- Comprehensive unit test coverage (EditMode and PlayMode tests)
+- XML documentation
 
 ### Changed
-- Changed `package.json` author name.
+- N/A
 
 ### Fixed
 - N/A

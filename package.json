@@ -1,10 +1,10 @@
 {
-  "name": "com.codecatgames.hmprodebug",
-  "version": "1.0.1",
+  "name": "com.emreemiroglu.hmprodebug",
+  "version": "1.0.0",
   "displayName": "HMProDebug",
-  "description": "HMProDebug is a utility package designed to help developers easily apply text formatting and coloring in Unity's debug logs. This package provides a simple and flexible way to enhance the visual readability of debug messages by allowing text to be colored and formatted using both predefined and custom options.",
+  "description": "HMProDebug is a simple and flexible utility that enhances Unity debug logs with easy text coloring and formatting for improved readability.",
   "author": {
-    "name": "Code Cat Games",
+    "name": "Emre Emiroglu",
     "email": "emirogluemre08@gmail.com",
     "url": "https://github.com/Emre-Emiroglu"
   },

@@ -1,10 +1,10 @@
 ﻿using System.Collections;
-using CodeCatGames.HMProDebug.Runtime;
+using HMProDebug.Runtime;
 using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.TestTools;
 
-namespace CodeCatGames.HMProDebug.Tests.PlayMode
+namespace HMProDebug.Tests.PlayMode
 {
     public sealed class ProDebugPlayModeTests
     {

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace CodeCatGames.HMProDebug.Runtime
+namespace HMProDebug.Runtime
 {
     /// <summary>
     /// Represents a color that can be applied to a string in Unity.

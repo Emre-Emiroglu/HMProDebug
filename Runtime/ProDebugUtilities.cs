@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace CodeCatGames.HMProDebug.Runtime
+namespace HMProDebug.Runtime
 {
     /// <summary>
     /// Provides utility functions and fields for applying text formatting and coloring.

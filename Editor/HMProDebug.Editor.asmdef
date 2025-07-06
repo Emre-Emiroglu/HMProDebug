@@ -1,6 +1,6 @@
 {
-    "name": "CodeCatGames.HMProDebug.Editor",
-    "rootNamespace": "CodeCatGames.HMProDebug.Editor",
+    "name": "HMProDebug.Editor",
+    "rootNamespace": "HMProDebug.Editor",
     "references": [
         "GUID:0bd6c72e94562b34bbc1f0a613e28296"
     ],

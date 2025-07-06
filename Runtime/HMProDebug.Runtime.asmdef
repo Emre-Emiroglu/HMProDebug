@@ -1,6 +1,6 @@
 {
-    "name": "CodeCatGames.HMProDebug.Runtime",
-    "rootNamespace": "CodeCatGames.HMProDebug.Runtime",
+    "name": "HMProDebug.Runtime",
+    "rootNamespace": "HMProDebug.Runtime",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

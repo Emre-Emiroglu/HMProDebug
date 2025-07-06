@@ -1,8 +1,8 @@
-﻿using CodeCatGames.HMProDebug.Runtime;
+﻿using HMProDebug.Runtime;
 using NUnit.Framework;
 using UnityEngine;
 
-namespace CodeCatGames.HMProDebug.Tests.EditMode
+namespace HMProDebug.Tests.EditMode
 {
     public sealed class ProDebugEditModeTests
     {
