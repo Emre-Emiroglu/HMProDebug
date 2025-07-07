@@ -1,4 +1,4 @@
-﻿## [1.0.0] - 2025-07-06
+﻿## [1.0.0] - 2025-07-07
 
 ### Added
 - Text coloring and formatting functionality for Unity debug logs.
